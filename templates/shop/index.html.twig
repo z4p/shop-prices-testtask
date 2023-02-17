@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Order an item{% endblock %}
+
+{% block body %}
+    {{ form(formOrder) }}
+
+    {% if customerPrice %}
+        <p>Your price is <b>&dollar;{{ customerPrice }}</b></p>
+    {% endif %}
+{% endblock %}
