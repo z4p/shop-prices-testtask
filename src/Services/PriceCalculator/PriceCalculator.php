@@ -2,7 +2,6 @@
 
 namespace App\Services\PriceCalculator;
 
-use App\Entity\Order;
 use App\Repository\CountryRepository;
 use App\Services\PriceCalculator\Exception\WrongTaxNumberException;
 use Doctrine\ORM\NonUniqueResultException;

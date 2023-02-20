@@ -2,9 +2,9 @@
 
 namespace App\Controller;
 
-use App\Entity\Order;
 use App\Form\Type\OrderType;
 use App\Services\PriceCalculator\Exception\WrongTaxNumberException;
+use App\Services\PriceCalculator\Order;
 use App\Services\PriceCalculator\PriceCalculator;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\FormError;

@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Entity;
+namespace App\Services\PriceCalculator;
 
+use App\Entity\Good;
 use Symfony\Component\Validator\Constraints as Assert;
 
 class Order

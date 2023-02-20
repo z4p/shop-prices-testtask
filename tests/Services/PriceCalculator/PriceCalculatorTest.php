@@ -4,9 +4,9 @@ namespace App\Tests\Services\PriceCalculator;
 
 use App\Entity\Country;
 use App\Entity\Good;
-use App\Entity\Order;
 use App\Repository\CountryRepository;
 use App\Services\PriceCalculator\Exception\WrongTaxNumberException;
+use App\Services\PriceCalculator\Order;
 use App\Services\PriceCalculator\PriceCalculator;
 use PHPUnit\Framework\TestCase;
 
